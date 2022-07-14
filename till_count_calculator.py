@@ -20,6 +20,7 @@ print(f'\nYou have a total of ${total}')
 if total > 300:
     deposit = total - 300
     ending_deposit = deposit
+    print(f'\nYou have to deposit ${deposit}')
 
     if amount_of_hundreds > 0:
         max_hundreds = ending_deposit // 100
@@ -77,4 +78,3 @@ if total > 300:
 else:
     print("\nThere is no deposit")
 
-print(f'\nYou have to deposit ${deposit}')
